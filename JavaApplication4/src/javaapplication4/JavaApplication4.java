@@ -15,8 +15,11 @@ public class JavaApplication4 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        int a=1;
+        int b=a+1;
+        int c=a+b;
         System.out.println ("Hello World");
-        System.out.println ("Going to be posted on github");
+        System.out.println ("Going to be posted on github" + a + b + c);
     }
     
 }
